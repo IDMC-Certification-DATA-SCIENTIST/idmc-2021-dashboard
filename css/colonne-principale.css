@@ -1,0 +1,103 @@
+.colonne-principale {
+    padding-right: 30px;
+}
+
+.chemin-de-fer ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.chemin-de-fer ul li:after {
+    content: "/";
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#8f99A3;
+}
+.chemin-de-fer ul li:last-child:after{
+    display: none;
+}
+
+.chemin-de-fer ul li a {
+    color:#276cda
+}
+.chemin-de-fer ul li:last-child a {
+    color:black
+}
+
+.bienvenue {
+    color: white;
+    padding: 15px;
+    background: linear-gradient(to right,  #276cda 0%,#36d1dc 100%);
+}
+.bienvenue h2, .bienvenue p{
+    margin: 0;
+}
+.bienvenue p{
+    font-size: 12px;
+}
+
+.stats {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.stats ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stats ul li {
+    flex : 1;
+    background: white;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.stats ul li:last-child {
+    margin: 0;
+}
+
+.stats ul li p {
+    color: lightgray
+}
+
+
+.events {
+    background: white;
+}
+.events header {
+    padding: 20px;
+    color: grey;
+}
+.events ul {
+    list-style: none;
+    padding: 0;
+    height: 250px;
+    overflow: auto;    
+}
+
+.events ul li {
+    display: flex;
+    padding:10px;
+    border-bottom:1px solid lightgray;
+}
+
+.events ul li p { 
+    flex: 1;
+    margin: 0;
+    margin-left: 20px;
+}
+.events ul li button {
+    background-color: #00d1b2;
+    color:white;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.events footer {
+    padding: 20px;
+    color: grey;
+    text-align: center;
+}

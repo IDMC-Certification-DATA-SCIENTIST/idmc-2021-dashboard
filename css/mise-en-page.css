@@ -1,0 +1,28 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+    background-color: #ecf0f3;
+}
+
+a {
+    text-decoration: none; /* Ne pas souligner les liens */
+    color: black;
+}
+
+/* quand la souris survole un des liens de la page */
+a:hover { 
+    text-decoration: underline;
+    color:#276cda;
+    font-weight: lighter;
+}
+
+.contenu-site {
+    display: flex;
+}
+.colonne-laterale {
+    width: 330px; /* largeur fixe */
+}
+
+.colonne-principale {
+    flex:1; /* la largeur de l'element sera la largeur restant disponible */
+}

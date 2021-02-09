@@ -1,0 +1,20 @@
+nav.navigation-site {
+    background-color: white;
+    display: flex;
+    padding: 15px;
+    font-size: 15px;
+    border-top: 4px solid #276cda;
+}
+nav.navigation-site ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navigation-site ul li{
+    padding-left:20px;
+}
+nav.navigation-site ul li a{
+    font-weight: bolder;
+}

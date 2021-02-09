@@ -1,0 +1,31 @@
+.colonne-laterale {
+    padding-left: 40px;
+}
+.colonne-laterale nav h2 {
+    color:#8f99A3;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+.colonne-laterale nav ul {
+    list-style: none; /* enleve les puces à gauche */
+    padding-left: 10px;
+}
+
+.colonne-laterale nav ul li {
+    margin-bottom: 20px;
+}
+.colonne-laterale nav ul li a {
+    font-weight: bolder;
+    font-size: 14px;
+}
+.colonne-laterale nav ul li a.lien-actif {
+    color:#276cda
+}
+/* toutes les listes qui sont contenus dans des listes */
+.colonne-laterale nav ul li ul {
+    border-left: 1px solid gray;
+    margin-top : 20px;
+}
